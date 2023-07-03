@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearchLogs", "ElasticSearchLogs.csproj", "{BE56A7C4-82F7-4E1D-B52E-AC48C32CADFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE56A7C4-82F7-4E1D-B52E-AC48C32CADFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE56A7C4-82F7-4E1D-B52E-AC48C32CADFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE56A7C4-82F7-4E1D-B52E-AC48C32CADFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE56A7C4-82F7-4E1D-B52E-AC48C32CADFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2370AEC-8111-4B82-9A8D-7B2466AC9B68}
+	EndGlobalSection
+EndGlobal
