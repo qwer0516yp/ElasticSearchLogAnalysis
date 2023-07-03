@@ -5,7 +5,7 @@ builder.Host.UseSerilog((context, configuration) =>
                             configuration.Enrich.FromLogContext()
                             .Enrich.WithMachineName()
                             .WriteTo.Console()
-                            .WriteTo.File($"logs/testlog_{DateTime.UtcNow:yyyy-MM}", rollingInterval: RollingInterval.Day)
+                            .WriteTo.File($"logs/testlog_{DateTime.UtcNow:yyyy-MM}.log", rollingInterval: RollingInterval.Day)
                             .WriteTo.Elasticsearch(new Serilog.Sinks.Elasticsearch.ElasticsearchSinkOptions(new Uri(context.Configuration["ElasticConfiguration:Uri"])) 
                             { 
                                 IndexFormat = $"{context.Configuration["ApplicationName"]}-logs-{context.HostingEnvironment.EnvironmentName?.ToLower()}-{DateTime.UtcNow:yyyy-MM}",
